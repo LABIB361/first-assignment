@@ -1,13 +1,18 @@
 body{
+    box-sizing: border-box;
+    padding-left: 50px ;
     font-family: 'Luxurious Roman', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Poppins', sans-serif;
+font-family: 'Oswald', sans-serif;;
+    margin: 0px 0px ;
     }
+    .first-section{margin-left: 50px;}
 
 h1{font-size: 50px;
-padding-left: 10px;}
+padding-left: 10px;
+font-family: 'Luxurious Roman', cursive;}
 
 #top-border-left{border-left:4px solid skyblue;
+     border-spacing: 10px;
 }
 
 .blue{color: skyblue;}
@@ -21,18 +26,100 @@ padding-left: 10px;}
     padding-left: 2%;
 }
 
-.half-width img{width: 80%;}
+.half-width img{width: 75%;}
 
 .button{
     text-decoration:none ;
-background-color:skyblue ;
-color: white;
-font-weight: 200;
-padding: 10px 20px;
-border-radius: 5px;
+    background-color:skyblue ;
+    color: white;
+    font-weight: 200;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
+
 #down-pad{padding-bottom: 15px;}
+
 #top-pad{padding-top: 15px;}
 
+h2{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 700;
+}
 
+
+
+.flexible {
+    display: flex;
+}
+
+.mission-boxes {
+    margin: 20px 40px;
+}
+
+.mission-box {
+    padding: 40px 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.first-box {
+    background-color: skyblue;
+}
+
+.second-box {
+    background-color: skyblue;
+}
+
+.third-box {
+    background-color: skyblue;
+}
+
+.mission-boxes img{width: 50%;}
+
+h4 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.third-section{margin-top: 100px;
+              margin-left: 50px;
+               }
+
+#text-left{text-align: left;}
+
+.fourth-section{margin-top: 100px;
+    margin-left: 50px;
+     }
+
+     .experience-item{width: 40%;margin-left: 5%;margin-right: 5%;
+        box-shadow: 10px 10px 40px grey;
+        padding-left: 20px;
+        border-radius: 5%;
+        border-left: 7px solid;
+        border-image:linear-gradient(skyblue,cyan);
+        border-image-slice: 1;
+    }
+    .experience-area{ background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;}
+    #web-dev-experience{
+        border-left: 7px solid;
+        border-image:linear-gradient(skyblue,cyan);
+        border-image-slice: 1;
+    }
+    #margin { margin-left: 50px;}
+
+    .end p{
+        color:white;
+        font-size: 15px;
+       padding-bottom: 40px;
+    }
+    .end h2{color: white;}
+    footer{text-align: center;
+    background-color: black;}
 
